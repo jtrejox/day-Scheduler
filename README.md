@@ -107,6 +107,6 @@ SOFTWARE.
 
 ## Review
 
-### Live url: https://jtrejox.github.io/Code-Quiz/
-### GitHub url: https://github.com/jtrejox/Code-Quiz
+### Live url: https://jtrejox.github.io/day-Scheduler/
+### GitHub url: https://github.com/jtrejox/day-Scheduler
 
