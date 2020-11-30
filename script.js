@@ -7,7 +7,8 @@ var jumboPar = $("#currentDay")
 var thFind = $('th')
 var middleFind = thFind.next('td')
 var lastFind = thFind.next('td').next()
-var mHour =moment().format("h:00a")
+var mHour = moment().format("h:00a")
+var textboxes = $('textarea') 
 //SETTING THE JUMBOTRON DAY INFORMATION
 jumboPar.text(jumboDay)
 
@@ -47,7 +48,8 @@ function elementClass () {
 function savedStuff(){
     $.each(middleFind, (i, v) =>{
         var saved = middleFind.eq(i).attr('data-saved')
-        middleFind.eq(i).append(localStorage.getItem(saved))
+       textboxes.eq(i).val(localStorage.getItem(saved))
+  
     })
 }
 
